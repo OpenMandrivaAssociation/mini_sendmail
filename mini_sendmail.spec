@@ -10,6 +10,7 @@ Release:	%release
 License:	BSD
 Group:		Networking/Mail
 URL:		http://www.acme.com/software/mini_sendmail
+Requires(post,preun): update-alternatives
 Source0:	http://www.acme.com/software/mini_sendmail/%name-%version.tar.gz
 Patch0:		%name-1.3.2-makefile.patch.bz2
 Provides:	sendmail-command
