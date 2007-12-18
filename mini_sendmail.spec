@@ -30,11 +30,9 @@ make mini_sendmail	PREFIX=%{_prefix} \
 			MANDIR=%{_mandir}
 
 %install
-%__mkdir_p %buildroot/%_docdir/%name-%version
-%__mkdir_p %buildroot/%_sbindir/%name-%version
+%__mkdir_p %buildroot/%_docdir/%name
+%__mkdir_p %buildroot/%_sbindir/%name
 
-%__cp $RPM_BUILD_DIR/%name-%version/README %buildroot/%{_docdir}/%name-%version
-%__cp $RPM_BUILD_DIR/%name-%version/FILES %buildroot/%{_docdir}/%name-%version
 %__cp $RPM_BUILD_DIR/%name-%version/mini_sendmail %buildroot/%{_sbindir}/mini_sendmail
 
 %clean
