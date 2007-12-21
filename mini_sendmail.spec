@@ -14,6 +14,7 @@ Requires(post,preun): update-alternatives
 Source0:	http://www.acme.com/software/mini_sendmail/%name-%version.tar.gz
 Patch0:		%name-1.3.2-makefile.patch.bz2
 Provides:	sendmail-command
+BuildRoot:      %_tmppath/%name-buildroot
 
 %description
 mini_sendmail reads its standard input up to an end-of-file and sends a copy
