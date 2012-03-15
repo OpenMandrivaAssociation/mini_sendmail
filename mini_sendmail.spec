@@ -24,7 +24,7 @@ send email from inside a chroot(2) area.
 
 %prep 
 %setup -q
-%patch -p1 -b .makefile
+%patch0 -p1 -b .makefile
 
 %build
 make mini_sendmail	PREFIX=%{_prefix} \
