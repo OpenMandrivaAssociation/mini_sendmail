@@ -1,6 +1,6 @@
 %define name    mini_sendmail
-%define version 1.3.5
-%define release %mkrel 7
+%define version 1.3.6
+%define release %mkrel 1
 %define summary Accept email on behalf of real sendmail
 
 Summary:	%summary
