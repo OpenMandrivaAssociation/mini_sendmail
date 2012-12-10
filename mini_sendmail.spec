@@ -51,3 +51,26 @@ fi
 %doc README FILES
 %_sbindir/mini_sendmail
 
+
+
+%changelog
+* Thu Mar 15 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.6-1mdv2011.0
++ Revision: 785057
+- version update 1.3.6
+- version update 1.3.6
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.3.5-7mdv2009.0
++ Revision: 252533
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Wed Dec 19 2007 Thierry Vignaud <tv@mandriva.org> 1.3.5-5mdv2008.1
++ Revision: 133078
+- requires update-alternatives
+- simplify installing
+- do not reinvent %%doc
+- kill re-definition of %%buildroot on Pixel's request
+- import mini_sendmail
+
